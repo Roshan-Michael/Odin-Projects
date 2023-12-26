@@ -1,0 +1,102 @@
+.header
+{
+    display: flex;
+    background: #1F2937;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+    padding: 32px;
+}
+
+.logo,
+.link
+{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.logo
+{
+    font-size: 24pX;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.link
+{
+    gap: 16px;
+}
+
+a
+{
+    text-decoration-line: none;
+    color: white;
+}
+
+.main
+{
+    display: flex;
+    background: #1F2937;
+    color: white;
+    padding: 32px;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.hero
+{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bodyText
+{
+    font-size: 18px;
+    color: #e5e7eb;
+    font-family: sans-serif;
+}
+
+button
+{
+    background: #3882f6;
+    color: white;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    border: 0;
+    font-weight: 700;
+}
+
+img
+{
+    height: 300px;
+    width: 500px;
+}
+
+.headTwo
+{
+    display: flex;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+    font-family: sans-serif;
+    justify-content: center;
+}
+
+.info
+{
+    display: flex;
+}
+
+.images
+{
+    height: 100px;
+    width: 100px;
+    border: 10px;
+    border-color: blue;
+    padding: 3px;
+    margin: 5px;
+}
