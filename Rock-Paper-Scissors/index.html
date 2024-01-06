@@ -8,9 +8,11 @@
 </head>
 <body>
     <script>
-        let playerSelection = "rock";
-        let computerSelection = getComputerChoice();
-        console.log(singleRound(playerSelection, computerSelection));
+        let user_input;
+
+        let playerSelection = prompt("Rock, Paper, Scissors", user_input);
+
+        console.log(game(playerSelection));
     </script>
 </body>
 </html>
